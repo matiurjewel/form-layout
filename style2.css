@@ -1,0 +1,36 @@
+.main_form {
+    display: flex;
+    background-color: lightgreen;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact {
+    flex: 1; 
+    margin-right: 60px;  
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.contact button {
+    background-color: darkgray;
+    color: white;
+    padding: 10px 15px;
+}
+
+.text_message {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-bottom: 50px; 
+}
+
+.text_message textarea {
+    flex: 1;
+}
